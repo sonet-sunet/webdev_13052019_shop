@@ -5,7 +5,7 @@ $headerConfig = [
 ];
 include('parts/header.php'); 
 ?>
-
+<h1>Главная страница</h1>
 <?php 
 $footerConfig = [
     'scripts'=>['script.js', 'main.js']
