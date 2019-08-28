@@ -23,7 +23,7 @@ if( !empty( $_SESSION['basket'] ) ){
     d($template);
 }
 ?>
-
+<h1>Корзина<h1>
 <?php
 $footerConfig = [
     'scripts'=>['script.js', 'basket.js']
