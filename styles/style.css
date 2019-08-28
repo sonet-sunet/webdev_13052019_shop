@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #303030;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+header .logo {
+  height: 41px;
+  width: 41px;
+  background: url(/images/icons/logo.jpg) center center/contain no-repeat;
+}
+
+header a {
+  color: #303030;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+header nav {
+  width: 65%;
+}
+
+header nav a {
+  margin-right: 30px;
+}
+
+header .basket {
+  position: relative;
+}
+
+header .basket::before {
+  content: '';
+  position: absolute;
+  left: -29px;
+  height: 30px;
+  width: 30px;
+  top: -4px;
+  background: url(/images/icons/basket.png) center center/contain no-repeat;
+}
+/*# sourceMappingURL=style.css.map */

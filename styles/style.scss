@@ -1,0 +1,53 @@
+$borderColor: #e5e5e5;
+$textColor: #303030;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: $textColor;
+
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    border-bottom: 1px solid $borderColor;
+
+    .logo{
+        height: 41px;
+        width: 41px;
+        background: url(/images/icons/logo.jpg) center center / contain no-repeat;
+    }
+    a{
+        color: $textColor;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    nav{
+        width: 65%;
+        a{
+            margin-right: 30px;
+        }
+    }
+    .user{       
+    }
+    .basket{
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            left: -29px;
+            height: 30px;
+            width: 30px;
+            top: -4px;
+            background: url(/images/icons/basket.png) center center/contain no-repeat;
+        }     
+    }
+}
