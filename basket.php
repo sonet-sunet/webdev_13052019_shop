@@ -1,7 +1,7 @@
 <?php 
 $headerConfig = [
     'title'=> 'Корзина',
-    'css'=>['style.css', 'basket.css']
+    'css'=>['style.css', 'basket.css', 'pe-icon-7-stroke.css', 'font-awesome.css']
 ];
 include('parts/header.php'); 
 // unset($_SESSION['basket']);

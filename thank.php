@@ -1,7 +1,7 @@
 <?php 
 $headerConfig = [
     'title'=> 'Спасибо!',
-    'css'=>['style.css', 'thank.css']
+    'css'=>['style.css', 'thank.css', 'pe-icon-7-stroke.css', 'font-awesome.css']
 ];
 include('parts/header.php'); 
 ?>
