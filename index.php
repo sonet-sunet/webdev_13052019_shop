@@ -1,7 +1,7 @@
 <?php 
 $headerConfig = [
     'title'=> 'Главная страница',
-    'css'=>['style.css', 'main.css']
+    'css'=>['style.css', 'main.css', 'pe-icon-7-stroke.css', 'font-awesome.css']
 ];
 include('parts/header.php'); 
 ?>
