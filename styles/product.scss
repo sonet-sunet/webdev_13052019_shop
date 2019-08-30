@@ -1,19 +1,98 @@
 .product{
-    &-photo{
+    &-foto{
         width: 100%;
         height: 590px;
         background-color: #e6e6e6;
         background-position: center center;
-        background-size: contain;
         background-repeat: no-repeat;
+        background-size: contain;
+    }
+    &-name{
+        font-size: 36px;
+        font-family: "Myriad Pro";
+        color: rgb(48, 48, 48);
+        text-transform: uppercase;
+        line-height: 1;
+        text-align: center;
+        margin-top: 61px;
+    }
+    &-sku{
+        font-family: "Myriad Pro";
+        color: #dddddd;
+        text-align: center;
+        margin-top: 12px;
+        font-weight: 200;
+        font-size: 16px;
+    }
+    &-price{
+        color: #606060;
+        font-family: "Myriad Pro";
+        font-size: 20px;
+        font-style: italic;
+        text-align: center;
+        margin-top: 26px;
+    }
+    &-text{
+        font-size: 14px;
+        font-family: "Myriad Pro";
+        color: rgb(96, 96, 96);
+        line-height: 1.714;
+        text-align: center;
+        margin-top: 37px;
     }
     &-size{
+        font-size: 14px;
+        font-family: "Myriad Pro";
+        color: rgb(96, 96, 96);
+        text-transform: uppercase;
+        line-height: 1.714;
+        text-align: center;
+        margin-top: 38px;
         &-box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 18px;
             &-item{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30px;
+                height: 30px;
+                text-transform: uppercase;
+                background-color: #ffffff;
+                border: 1px solid #303030;
+                color: #303030;
+                margin-right: 14px;
+                margin-left: 14px;
+                cursor: pointer;
                 &.no{
                     color: #cccccc;
                 }
             }
         }
     }
+}
+.product-addtocard{
+    display: flex;
+    justify-content: center;
+    width: 195px;
+    height: 50px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+    margin-top: 48px;
+    margin-bottom: 101px;
+    border: 1px solid rgb(230, 116, 41);
+    background-color: rgb(255, 105, 5);
+    cursor: pointer;
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 3.065;
+    text-align: center;
+    outline: none;
 }
