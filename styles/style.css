@@ -173,32 +173,42 @@ footer .container-right p {
   text-align: left;
 }
 
-footer .container-right-sociall {
+footer .container-right-sociall ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 13px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  list-style: none;
+  text-align: center;
 }
 
-footer .container-right-sociall-pic {
-  width: 32px;
-  height: 32px;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid #606060;
-  margin-right: 14px;
+footer .container-right-sociall ul li {
+  padding-right: .3em;
+  padding-bottom: .3em;
 }
 
-.pic-twitter {
-  background: url(/icon/twitter.png);
+footer .container-right-sociall ul li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #424446;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid #3a3b3b;
 }
 
-.pic-facebook {
-  background: url(/icon/facebook.png);
-}
-
-.pic-instagram {
-  background: url(/icon/instagram.png);
+footer .container-right-sociall ul li a i {
+  width: 15px;
+  height: 17px;
+  font: normal;
 }
 /*# sourceMappingURL=style.css.map */

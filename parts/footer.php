@@ -27,9 +27,23 @@
                     <p>Сайт разработан в inordic.ru</p>
                     <p>2018©Все права защищены</p>
                     <div class="container-right-sociall">
-                        <div class="container-right-sociall-pic pic-twitter"></div>
-                        <div class="container-right-sociall-pic pic-facebook"></div>
-                        <div class="container-right-sociall-pic pic-instagram"></div>
+                    <ul class="">
+                            <li>
+                                <a href="hhtps://twitter.com/">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li >
+                                <a href="instagram.com/">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
