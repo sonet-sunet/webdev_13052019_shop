@@ -24,6 +24,7 @@ if( !empty( $_SESSION['basket'] ) ){
 }
 ?>
 <h1>Корзина<h1>
+<div class="basket-message">Товары резервируются на ограниченное время</div>
 <?php
 $footerConfig = [
     'scripts'=>['script.js', 'basket.js']
