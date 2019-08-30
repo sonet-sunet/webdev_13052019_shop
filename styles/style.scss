@@ -1,5 +1,27 @@
 $borderColor: #e5e5e5;
 $textColor: #303030;
+
+@mixin footerHeading {
+    font-size: 14px;
+    color: rgb(48, 48, 48);
+    text-transform: uppercase;
+    line-height: 2.5;
+    text-align: left;
+    font-weight: 600;
+}
+@mixin link-nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    text-decoration: none;
+}
+@mixin link-a {
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(48, 48, 48);
+    line-height: 1.917;
+    text-align: left; 
+}
 *{
     margin: 0;
     padding: 0;

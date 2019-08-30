@@ -60,4 +60,145 @@ header .basket::before {
   top: -4px;
   background: url(/images/icons/basket.png) center center/contain no-repeat;
 }
+
+footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .container-left h1 {
+  font-size: 14px;
+  color: #303030;
+  text-transform: uppercase;
+  line-height: 2.5;
+  text-align: left;
+  font-weight: 600;
+}
+
+footer .container-left nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 18px;
+  text-decoration: none;
+}
+
+footer .container-left nav a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #303030;
+  line-height: 1.917;
+  text-align: left;
+}
+
+footer .container-center {
+  position: relative;
+}
+
+footer .container-center::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  height: 159px;
+  left: 190px;
+  border-left: 1px solid #eaeaea;
+}
+
+footer .container-center::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  height: 159px;
+  right: 182px;
+  border-left: 1px solid #eaeaea;
+}
+
+footer .container-center h1 {
+  font-size: 14px;
+  color: #303030;
+  text-transform: uppercase;
+  line-height: 2.5;
+  text-align: left;
+  font-weight: 600;
+}
+
+footer .container-center nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 18px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+footer .container-center nav a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #303030;
+  line-height: 1.917;
+  text-align: left;
+}
+
+footer .container-right h1 {
+  font-size: 14px;
+  color: #303030;
+  text-transform: uppercase;
+  line-height: 2.5;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+footer .container-right p {
+  font-size: 12px;
+  color: #303030;
+  line-height: 1.917;
+  text-align: left;
+}
+
+footer .container-right-sociall {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 13px;
+}
+
+footer .container-right-sociall-pic {
+  width: 32px;
+  height: 32px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid #606060;
+  margin-right: 14px;
+}
+
+.pic-twitter {
+  background: url(/icon/twitter.png);
+}
+
+.pic-facebook {
+  background: url(/icon/facebook.png);
+}
+
+.pic-instagram {
+  background: url(/icon/instagram.png);
+}
 /*# sourceMappingURL=style.css.map */
