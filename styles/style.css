@@ -172,6 +172,10 @@ footer .container-right p {
   text-align: left;
 }
 
+footer .container-right-sociall {
+  margin-top: 25px;
+}
+
 footer .container-right-sociall ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -188,7 +192,7 @@ footer .container-right-sociall ul {
 }
 
 footer .container-right-sociall ul li {
-  padding-right: 4px;
+  padding-right: 13px;
 }
 
 footer .container-right-sociall ul li a {

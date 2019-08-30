@@ -133,6 +133,7 @@ footer{
                 text-align: left;
             }
             &-sociall{
+                margin-top: 25px;
                 ul{
                     display: flex;
                     justify-content: center;
@@ -141,7 +142,7 @@ footer{
                     list-style: none;
                     text-align: center;
                     li{
-                        padding-right: 4px;
+                        padding-right: 13px;
                         a{
                             display: block;
                             width: 40px;
