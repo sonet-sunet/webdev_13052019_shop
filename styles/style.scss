@@ -58,7 +58,20 @@ header{
             margin-right: 30px;
         }
     }
-    .user{       
+    .user{  
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            top: -4px;
+            left: -29px;
+            width: 30px;
+            height: 30px;
+            background: url(/images/icons/account.png);
+            background-position: center center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }     
     }
     .basket{
         position: relative;
