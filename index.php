@@ -6,6 +6,7 @@ $headerConfig = [
 include('parts/header.php'); 
 ?>
 <h1>Главная страница</h1>
+<p><i>Мы подготовили для Вас лучшие новинки сезона</i></p>
 <?php 
 $footerConfig = [
     'scripts'=>['script.js', 'main.js']
