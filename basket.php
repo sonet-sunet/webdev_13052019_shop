@@ -41,6 +41,7 @@ if( !empty( $_SESSION['basket'] ) ){
         </div>
     </div>
     <div class="container-line"></div>
+    <?php foreach( $template['basket'] as $data_basket_item  ) :?>
     <div class="container-content">
         <div class="container-content-left">
             <div class="container-content-left-id"><?=$data_basket_item['id']?></div>
@@ -57,6 +58,7 @@ if( !empty( $_SESSION['basket'] ) ){
             <div class="container-content-right-delete"></div>
         </div>
     </div>
+<?php endforeach;?>
 </div>
 <?php
 $footerConfig = [
