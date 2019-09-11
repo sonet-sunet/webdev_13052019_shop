@@ -1,0 +1,147 @@
+.container{
+    margin-top: 121px;
+    &-text{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            font-size: 36px;
+            font-family: "Myriad Pro";
+            color: rgb(48, 48, 48);
+            text-transform: uppercase;
+            line-height: 1;
+            font-weight: 600;
+        }
+        p{
+            font-size: 18px;
+            font-family: "Myriad Pro";
+            color: #606060;
+            font-style: italic;
+            margin-top: 14px;
+
+        }
+    }
+    &-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 96px;
+        &-left{
+            display: flex;
+            p{
+                font-size: 12px;
+                font-family: "Myriad Pro";
+                color: rgb(144, 144, 144);
+                text-transform: uppercase;
+                line-height: 3.583;
+                text-align: center;
+                margin-right: 94px;
+            }
+        }
+        &-right{
+            display: flex;
+            p{
+                font-size: 12px;
+                font-family: "Myriad Pro";
+                color: rgb(144, 144, 144);
+                text-transform: uppercase;
+                line-height: 3.583;
+                text-align: center;
+                &:nth-child(1n){
+                    margin-right: 53px;
+                }
+                &:nth-child(2n){
+                    margin-right: 36px;
+                }
+                &:nth-child(3n){
+                    margin-right: 53px;
+                }
+            }
+        }
+    }
+    &-line{
+        width: 100%;
+        height: 1px;
+        background: #e5e5e5;
+    }
+    &-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-left{
+            display: flex;
+            align-items: center;
+            margin-top: 18px;
+            &-id{
+                display: none;
+            }
+            &-pic{
+                width: 98px;
+                height: 98px;
+                border: 1px solid #e5e5e5;
+                background-position: center center;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+            &-text{
+                margin-left: 24px;
+                p{
+                    font-size: 14px;
+                    font-family: "Myriad Pro";
+                    color: rgb(48, 48, 48);
+                    text-transform: uppercase;
+                    line-height: 1.286;
+                    text-align: left;
+                    font-weight: 600;
+                    &:nth-child(2n){
+                        font-size: 10px;
+                        text-transform: none;
+                        font-weight: 100;
+                        color: #a0a0a0;
+                    }
+                }
+            }
+        }
+        &-right{
+            display: flex;
+            align-items: center;
+            margin-right: 45px;
+            &-size{
+                font-size: 14px;
+                font-family: "Lato";
+                color: rgb(48, 48, 48);
+                text-transform: uppercase;
+                line-height: 1.286;
+                text-align: center;
+                margin-right: 87px;
+            }
+            &-quantity{
+                font-size: 14px;
+                font-family: "Lato";
+                color: rgb(48, 48, 48);
+                text-transform: uppercase;
+                line-height: 1.286;
+                text-align: center;
+                margin-right: 91px;
+            }
+            &-price{
+                font-size: 14px;
+                font-family: "Myriad Pro";
+                color: rgb(48, 48, 48);
+                line-height: 1.286;
+                text-align: left;
+                margin-right: 72px;
+            }
+            &-delete{
+                width: 20px;
+                height: 20px;
+                background: url(../icon/icon-delete-29.jpg.png);
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                cursor: pointer;
+            }
+        }
+    }
+}
