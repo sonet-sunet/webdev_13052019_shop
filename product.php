@@ -1,7 +1,7 @@
 <?php 
 $headerConfig = [
     'title'=> 'Карточка товара',
-    'css'=>['style.css', 'product.css']
+    'css'=>['style.css', 'product.css', 'pe-icon-7-stroke.css', 'font-awesome.css']
 ];
 include('parts/header.php'); 
 

@@ -1,7 +1,7 @@
 <?php 
 $headerConfig = [
     'title'=> 'Каталог',
-    'css'=>['style.css', 'catalog.css']
+    'css'=>['style.css', 'catalog.css', 'pe-icon-7-stroke.css', 'font-awesome.css']
 ];
 include('parts/header.php'); 
 
