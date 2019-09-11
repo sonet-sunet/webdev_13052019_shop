@@ -47,6 +47,23 @@ header nav a {
   margin-right: 30px;
 }
 
+header .user {
+  position: relative;
+}
+
+header .user::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -29px;
+  width: 30px;
+  height: 30px;
+  background: url(/images/icons/account.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 header .basket {
   position: relative;
 }
